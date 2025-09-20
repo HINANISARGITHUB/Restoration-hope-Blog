@@ -94,6 +94,10 @@ body::before {
 
 }
 
+.top_navbar a {
+  text-decoration: none;
+}
+
 .div_color {
   background-color: #f1eaef;
   padding: 20px;

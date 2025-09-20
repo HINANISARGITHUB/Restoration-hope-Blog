@@ -1,0 +1,531 @@
+/* start */
+.recipe_Blog {
+  border: 1px solid #a1d6b2;
+  padding: 22px;
+  margin-top: 15px;
+}
+
+
+
+.hourMin1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.blogPara2_Icon {
+  color: #1d0e03;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.blogPara2_Icon span .fa-ellipsis-vertical {
+  /* margin-left: 800px; */
+  color: #494848;
+  font-size: 16px;
+  position: relative;
+  bottom: 50px;
+}
+
+.cookiesMain_Div {
+  /* border: 1px solid red; */
+  padding: 30px 60px 0px 60px;
+}
+
+.hourMin1 {
+  /* border: 1px solid purple; */
+  padding: 10px;
+}
+
+/* ✅ Whole top row: image+text left, icon right */
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ✅ Image + text grouped together */
+.leftPart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.leftPart img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blogPara2_Icon {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d0e03;
+}
+
+.blogPara2_Icon {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d0e03;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rescipe_h2 {
+  margin-top: 25px;
+  font-family: sans-serif;
+
+  font-size: 45px;
+  font-weight: 400;
+  color: #1D0e03;
+}
+
+.ingrediant {
+
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1D0e03;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+
+.rescipe_h2 {
+  margin-top: 25px;
+  font-family: sans-serif;
+  line-height: 55px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #1D0e03;
+}
+
+.ingrediant {
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1D0e03;
+  display: inline-block;
+}
+
+.rescipe_Para {
+  font-family: sans-serif;
+  font-weight: 200;
+  line-height: 35px;
+  color: #352010;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+#extraContent {
+  display: none;
+
+}
+
+.readMore {
+  font-size: 18px;
+
+
+}
+
+.btn {
+
+  display: flex;
+  gap: 15px;
+  margin-top: 22px;
+}
+
+.btn button {
+  border: 1px solid black;
+  padding: 6px;
+  background-color: none;
+  font-family: sans-serif;
+  font-weight: lighter;
+  background: none;
+  outline: none;
+}
+
+.cardDiv_Main {
+  /* border: 1px solid mediumvioletred;  */
+  margin-top: 25px;
+  display: flex;
+  gap: 68px;
+
+}
+
+
+.cardDiv_Main .card {
+  border: 1px solid #a1d6b2;
+  width: 285px;
+
+
+}
+
+
+
+.cardText {
+  padding: 15px;
+}
+
+.cardText h3 {
+  font-size: 20px;
+  color: #1d0e03;
+  font-weight: 300;
+}
+
+.DivLine {
+  background-color: rgb(126, 125, 125);
+  height: 1px;
+  margin-top: 15px;
+}
+
+.divLine2 {
+  background-color: rgb(126, 125, 125);
+  height: 1px;
+  margin-top: 30px;
+}
+
+
+.like_heart1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 90px;
+}
+
+
+.like_heart1 .heart_icon {
+  width: 25px;
+  height: 25px;
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.like_heart1.active .heart_icon {
+  fill: rgb(247, 68, 68);
+  /* red on active */
+  transform: scale(1.2);
+  /* zoom effect */
+}
+
+.like_heart1 .heart_icon:active {
+  transform: scale(0.9);
+  /* small press effect */
+}
+
+.blog_comment {
+  border: 1px solid #a1d6b2;
+  margin-top: 25px;
+  display: flex;
+  gap: 68px;
+  padding: 40px 80px 40px 80px;
+}
+
+.comment {
+  /* border: 1px solid red; */
+  width: 900px;
+
+}
+
+.comments1 {
+  border: 1px solid black;
+  margin-top: 30px;
+  width: 97.5%;
+  /* ya jitna width chahiye */
+  height: 40px;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+
+}
+
+.divLine3 {
+  background-color: rgb(126, 125, 125);
+  height: 1px;
+  margin-top: 20px;
+}
+
+.form p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.btn_container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.text_btn {
+  background: #014b37;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.result {
+  padding: 0px;
+ 
+  border: none;
+  font-size: 16px;
+  /* box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1); */
+
+}
+
+/* javascript classes */
+
+.guest {
+  font-size: 16px;
+  color: #1D0e03;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.imgJava {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.para {
+  font-size: 14px;
+  color: #1D0e03;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.javaText {
+  margin-top: 10px;
+  font-size: 16px;
+  
+  margin-left: 50px;
+}
+
+/* crab and shrimp css */
+
+/* recipe para */
+.recipePara  {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.stuffing {
+  margin-top: 15px;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+
+/* soul sister */
+.bold {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* swiper js image */
+
+    .swiper {
+      width: 60%;
+      height: 40%;
+      margin-top: 35px;
+      
+    }
+
+    .swiper-slide {
+      text-align: center;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 40%;
+      object-fit: cover;
+    }
+
+
+    /* toy blog */
+
+    .toyPics {
+      width: 950px;
+      height: 300px;
+      object-fit: cover;
+    }
+
+/* responsive */
+
+/* ✅ Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .cookiesMain_Div {
+    padding: 20px 30px;
+  }
+
+  .rescipe_h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .cardDiv_Main {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .blog_comment {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+  }
+
+  .comment {
+    width: 100%;
+  }
+}
+
+/* ✅ Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .cookiesMain_Div {
+    padding: 15px;
+  }
+
+  .rescipe_h2 {
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .ingrediant {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .rescipe_Para {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+  }
+
+  .cardDiv_Main {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .cardDiv_Main .card {
+    width: 90%;
+  }
+
+  .cardDiv_Main .card img {
+    width: 272px;
+  }
+
+  .blog_comment {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .topRow {
+  display: flex;
+  
+  align-items: center;
+}
+
+/* ✅ Image + text grouped together */
+.leftPart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+  .comments1 {
+    width: 100%;
+  }
+
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn button {
+    width: 100%;
+  }
+
+  .comments1 {
+  border: 1px solid black;
+  margin-top: 30px;
+  width: 92%;
+  /* ya jitna width chahiye */
+  height: 40px;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+
+}
+
+  .toyPics {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+}
+
+/* Base: make arrows smaller than default */
+.swiper {
+  --arrow-size: 22px;                 /* icon size */
+  --arrow-hit: 40px;                  /* clickable area */
+  --swiper-navigation-size: var(--arrow-size); /* Swiper's own var */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: var(--arrow-hit);
+  height: var(--arrow-hit);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: var(--arrow-size); /* fallback if your Swiper ignores the var */
+}
+
+/* Mobile: shrink more + pull closer to edges */
+@media (max-width: 576px) {
+  .swiper {
+    --arrow-size: 16px;
+    --arrow-hit: 32px;
+  }
+  .swiper-button-next { right: 6px; }
+  .swiper-button-prev { left: 6px; }
+
+  
+    .swiper {
+      width: 100%;
+      height: 100%;
+      margin-top: 35px;
+      
+    }
+
+
+}
+
+/* Optional: arrow color */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333; /* or any color you want */
+}

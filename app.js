@@ -55,12 +55,74 @@ document.querySelectorAll(".dislike-btn").forEach((btn) => {
   });
 });
 
+///////////////////// heart ////////////////////////
 
  let heart = document.querySelectorAll(".like_heart").forEach((btn) => {
   btn.addEventListener("click", () => {
     btn.classList.toggle("active");
   });
 });
+
+ let heart1 = document.querySelectorAll(".like_heart1").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+  });
+});
+
+
+///////////////////// read More/////////////
+let readMore = document.getElementById('readMore');
+let extraContent = document.getElementById('extraContent');
+
+readMore.onclick = (event) => {
+  event.preventDefault();
+  if(extraContent.style.display === 'none'){
+    extraContent.style.display = 'block';
+    readMore.innerHTML = `<strong>Read Less </strong>`;
+  }
+
+  else {
+    extraContent.style.display = 'none';
+    readMore.innerHTML = '<strong>Read More for Recipe</strong>';
+  }
+}
+
+/////////////////////////////  onFocus ////////////////////////////////
+
+let textArea = document.getElementById('comments');
+textArea.addEventListener('focus', () => {
+  textArea.style.border = '1px solid #a1d6b2'
+})
+
+let textArea1 = document.getElementById('comments');
+textArea1.addEventListener('blur', () => {
+  textArea1.style.border = '1px solid #000000'
+})
+
+/////////////////////////////  generate text ////////////////////////
+
+function form(event) {
+event.preventDefault();
+
+  let textComment = document.getElementById('comments').value;
+  let result = document.getElementById('result');
+
+     result.innerHTML = `
+     <img  class=imgJava src=./idJava.png>
+        <span class=guest>Guest</span>
+        <p class= para>a few seconds ago</p>
+        <p class=javaText>${textComment}</p>
+        
+      `;
+    };
+
+
+/////////////////////////  mouseOver Toy blog ///////////////////////////
+
+function swapPic(eId , newPic) {
+  document.getElementById(eId).src = newPic
+}
+
 
 
 
