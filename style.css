@@ -74,13 +74,13 @@ body::before {
 
 .h2_Div {
   display: flex;
-  margin: auto;
+ margin: auto;
   margin-left: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 800;
   letter-spacing: -1px;
-  gap: 318px;
+  gap: 276px;
 }
 
 /* first navbar  */
@@ -175,6 +175,10 @@ blockquote {
   margin-left: 130px;
 }
 
+.secondnavbar_container a .fa-bars {
+  display: none;
+}
+
 
 /* blog */
 
@@ -198,6 +202,7 @@ blockquote {
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
+  text-decoration: none;
 }  
 
 .images_width{
@@ -257,6 +262,11 @@ blockquote {
   height: 1px;
   margin-top: 20px;
 }
+
+.thumbsIcon {
+  padding: 32px 20px 12px 20px;
+}
+
 
 
 
@@ -563,7 +573,7 @@ footer {
 
 .like_heart {
  
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 
@@ -645,7 +655,7 @@ footer {
   /* icon */
 
     .AugBlogPara_Icon span .fa-ellipsis-vertical {
-  margin-left: 125px;
+  margin-left: 150px;
   
 }
 
@@ -656,10 +666,10 @@ footer {
 
 /*  */
   /* 2nd navbar */
-
-    .secondnavbar_container {
+ .secondnavbar_container {
     flex-direction: column;
     align-items: flex-start;
+    
   }
 
   .secondnavbar_container a {
@@ -667,21 +677,24 @@ footer {
     text-align: left;
     text-align: center;
       text-decoration: none;
- 
+ background-color: transparent;
   padding: 8px;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: #5c5b5b;
   cursor: pointer;
   font-weight: 200;
+
   }
 
- 
+
  
 
 .secondnavbar_container a .fa-magnifying-glass {
-  margin-left: 10px; 
-}
+ 
+  display: none;
+} 
+
 
 
 }
